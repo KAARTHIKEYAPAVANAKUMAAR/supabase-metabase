@@ -437,6 +437,7 @@ services:
 
 #Integrating with metabase for data visualization
 #Go to http://localhost:3000 and Add your Supabase PostgreSQL database by selecting "PostgreSQL" as the database type and entering the connection details (host, database, username, password, etc.).
+#Once the database details are entered, they are retained even if the container restarts.
 #host = host-ip-address
 #database = postgres
 #username = supabase_admin
